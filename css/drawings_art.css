@@ -9,10 +9,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- /* overflow: hidden; */
+  
 
 }.contenedor{
   max-width: 100%;
+
 }
 
 div.navbar-nav a.active {
@@ -27,42 +28,38 @@ div.navbar-nav a.active {
   font-size: 15px;
 }
 
-
-.titulo {
-     font-family: 'Courgette', cursive;
-     font-size: 36px;
-     letter-spacing: 7px;
-     color: white;text-shadow: 3px 3px 2px #000;
-     text-shadow: 3px 3px 2px #000;
+.title h1{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 2px #000;
+    margin-bottom: 2%;
+    letter-spacing: 3px;
+}
+.content{
+  margin-top: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
 
-.galeria img {
-     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
-     border-radius: 15px;
+.card img{
+
+  width:100%;
+
 }
 
-.materialbox-caption {
-     bottom: 30px;
-     right: 0;
-     width: 40%;
-     height: auto;
-     padding: 10px;
-     margin: auto;
-     background: #000;
-     box-shadow: 5px 5px #fff;
-     font-size: 20px;
-     color: #fff;
-     line-height: 28px;
+.row2{
+   margin-top: 2%;
+   margin-bottom: 2%;
 }
 
-.galeria .col {
-     margin-bottom: 20px;
-}
 
 .piePage {
   width: 100%;
   height: 3%;
-  position: absolute;
+  position: relative;
   color: white;
   opacity: 0.5;
   background: black;
@@ -70,17 +67,6 @@ div.navbar-nav a.active {
   font-size: 11px;
   text-align: center;
 }
-@media screen and (max-width: 600px){
-     .materialbox-caption {
-          width: 90%;
-     }
-}
-
-@media screen and (max-width: 992px){
-     .materialbox-caption {
-          width: 70%;
-     }
-
 
 @media (max-width: 992px) {
   body {
